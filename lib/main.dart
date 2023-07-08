@@ -1,4 +1,3 @@
-import 'package:barseem/shalaf.dart';
 import 'package:barseem/util/Farm.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -23,7 +22,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.greenAccent),
           useMaterial3: true,
         ),
-        home: const MyPage(),
+        home: const MyHomePage(title: 'Barseem'),
       ),
     );
   }
